@@ -256,7 +256,7 @@ A hash-table-test is defined with the same name."
 
 ;;;###autoload
 (progn
-  (require 'cl)
+  (require 'cl-lib)
   (cl-defstruct tconc head tail))
 
 ;;;###autoload
